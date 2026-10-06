@@ -342,21 +342,17 @@ nav a:hover {
     display: block;
 }
 
-
 /* =========================
    ORÇAMENTO
 ========================= */
 
 .orcamento {
     padding: 70px 8%;
-
     background: #bd9464;
     color: white;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     gap: 30px;
 }
 
@@ -377,7 +373,6 @@ nav a:hover {
 .botao.claro:hover {
     background: white;
 }
-
 
 /* =========================
    CONTATO
@@ -420,15 +415,11 @@ nav a:hover {
 
 .whatsapp {
     display: inline-block;
-
     margin-top: 20px;
     padding: 16px 25px;
-
     background: #17242a;
     color: white;
-
     text-decoration: none;
-
     font-size: 12px;
     font-weight: 700;
 }
@@ -437,7 +428,6 @@ nav a:hover {
     background: #bd9464;
 }
 
-
 /* =========================
    RODAPÉ
 ========================= */
@@ -445,13 +435,10 @@ nav a:hover {
 footer {
     background: #17242a;
     color: white;
-
     padding: 60px 8% 30px;
-
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
-
     align-items: center;
 }
 
@@ -486,7 +473,6 @@ footer {
     font-size: 10px;
     color: #aaa;
 }
-
 
 /* =========================
    RESPONSIVO
