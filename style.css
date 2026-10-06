@@ -4,17 +4,14 @@ css
     padding: 0;
     box-sizing: border-box;
 }
-
 html {
     scroll-behavior: smooth;
 }
-
 body {
     font-family: 'Montserrat', Arial, sans-serif;
     color: #17242a;
     background: white;
 }
-
 
 /* =========================
    CABEÇALHO
@@ -24,11 +21,9 @@ header {
     width: 100%;
     height: 90px;
     padding: 0 7%;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     background: #17242a;
 }
 
@@ -63,26 +58,21 @@ nav a:hover {
     color: #bd9464;
 }
 
-
 /* =========================
    INÍCIO
 ========================= */
 
 .inicio {
     min-height: 650px;
-
     display: flex;
     align-items: center;
-
     padding: 80px 8%;
-
     background:
         linear-gradient(
             rgba(23, 36, 42, 0.82),
             rgba(23, 36, 42, 0.82)
         ),
         url("imagens/fachada.jpg");
-
     background-size: cover;
     background-position: center;
 }
@@ -112,19 +102,14 @@ nav a:hover {
     margin-bottom: 35px;
 }
 
-
 /* BOTÕES */
 
 .botao {
     display: inline-block;
-
     padding: 16px 28px;
-
     background: #bd9464;
     color: white;
-
     text-decoration: none;
-
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 1px;
@@ -134,7 +119,6 @@ nav a:hover {
     background: white;
     color: #17242a;
 }
-
 
 /* =========================
    TÍTULOS
@@ -156,7 +140,6 @@ nav a:hover {
     font-size: 38px;
     max-width: 650px;
 }
-
 
 /* =========================
    SOBRE
@@ -192,7 +175,6 @@ nav a:hover {
 .sobre-card h3 {
     color: #bd9464;
 }
-
 
 /* =========================
    SERVIÇOS
@@ -233,7 +215,6 @@ nav a:hover {
     line-height: 1.7;
 }
 
-
 /* =========================
    PROJETOS
 ========================= */
@@ -269,12 +250,9 @@ nav a:hover {
     position: absolute;
     top: 15px;
     left: 15px;
-
     padding: 8px 12px;
-
     background: #bd9464;
     color: white;
-
     font-size: 10px;
     font-weight: 700;
 }
@@ -297,12 +275,9 @@ nav a:hover {
 .informacoes {
     display: flex;
     justify-content: space-between;
-
     padding: 20px 0;
-
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
-
     margin-bottom: 20px;
 }
 
@@ -331,17 +306,14 @@ nav a:hover {
     color: #bd9464;
 }
 
-
 /* =========================
    VÍDEO
 ========================= */
 
 .video {
     padding: 100px 8%;
-
     background: #18242a;
     color: white;
-
     display: grid;
     grid-template-columns: 1fr 1.3fr;
     gap: 60px;
